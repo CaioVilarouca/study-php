@@ -9,3 +9,12 @@ Nome do mascote do PHP é Elefante com PHP.
 Como o PHP funciona.
     PHP utiliza bastante de Html, Css e js. Além disso, é uma linguagem para roda no server-side(Servidor).
 --------------------------------------------------------------------------------------------------------------------------------------------------
+<?php ?>  = super tag PHP
+
+<? ?>     = Short open tag
+
+<?= ?>    = Short tag PHP: 
+                OBS: Usar apenas em uma linha de comando e não precisa de ; no final
+                Ex:     <?= "<p>Meu nome é <strong>Caio Vilarouca</strong></p>"?>
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
