@@ -21,4 +21,9 @@ PHP:
                 Ex:     <?= "<p>Meu nome é <strong>Caio Vilarouca</strong></p>"?>
 --------------------------------------------------------------------------------------------------------------------------------------------------
 Variáveis 
-    No PHP, não precisa declarar o tipo da variável, mas costante precisa
+    No PHP, não precisa declarar o tipo da variável, mas costante precisa. Além disso, Const só tem um valor do começo ao final do programa.
+        VAR 
+            $name = "Caio";
+        Const
+            const PAIS = "Brasil";
+--------------------------------------------------------------------------------------------------------------------------------------------------
