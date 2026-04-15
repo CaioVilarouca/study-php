@@ -8,6 +8,9 @@ Nome do mascote do PHP é Elefante com PHP.
 
 Como o PHP funciona.
     PHP utiliza bastante de Html, Css e js. Além disso, é uma linguagem para roda no server-side(Servidor).
+
+PHP:
+    Código PHP é processado no servidor web, gerando conteúdo HTML dinâmico que é então enviado ao navegador do usuário
 --------------------------------------------------------------------------------------------------------------------------------------------------
 <?php ?>  = super tag PHP
 
