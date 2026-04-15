@@ -20,4 +20,5 @@ PHP:
                 OBS: Usar apenas em uma linha de comando e não precisa de ; no final
                 Ex:     <?= "<p>Meu nome é <strong>Caio Vilarouca</strong></p>"?>
 --------------------------------------------------------------------------------------------------------------------------------------------------
-
+Variáveis 
+    No PHP, não precisa declarar o tipo da variável, mas costante precisa
