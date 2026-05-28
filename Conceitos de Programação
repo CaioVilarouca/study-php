@@ -11,7 +11,7 @@ Como o PHP funciona.
 
 PHP:
     Código PHP é processado no servidor web, gerando conteúdo HTML dinâmico que é então enviado ao navegador do usuário
---------------------------------------------------------------------------------------------------------------------------------------------------
+
 <?php ?>  = super tag PHP
 
 <? ?>     = Short open tag
@@ -19,11 +19,15 @@ PHP:
 <?= ?>    = Short tag PHP: 
                 OBS: Usar apenas em uma linha de comando e não precisa de ; no final
                 Ex:     <?= "<p>Meu nome é <strong>Caio Vilarouca</strong></p>"?>
---------------------------------------------------------------------------------------------------------------------------------------------------
+
 Variáveis 
     No PHP, não precisa declarar o tipo da variável, mas costante precisa. Além disso, Const só tem um valor do começo ao final do programa.
         VAR 
             $name = "Caio";
         Const
             const PAIS = "Brasil";
---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+laravel
+    composer create-project --prefer-dist laravel/laravel Nome-do-projeto
+
