@@ -1,24 +1,25 @@
-Criador do PHP:
-    Rasmus Lerdorf, criou em 1994.
+Criador do PHP
+    Rasmus Lerdorf, criou em 1994
 
-PHP:
-    PHP: HyperText Preprocessor
+PHP
+    HyperText Preprocessor PHP
+    Nome do mascote do PHP é Elefante com PHP
 
-Nome do mascote do PHP é Elefante com PHP.
+Como o PHP funciona
+    PHP utiliza bastante de HTML, CSS e JS. Além disso, é uma linguagem para roda no server-side (Servidor)
 
-Como o PHP funciona.
-    PHP utiliza bastante de Html, Css e js. Além disso, é uma linguagem para roda no server-side(Servidor).
-
-PHP:
+PHP
     Código PHP é processado no servidor web, gerando conteúdo HTML dinâmico que é então enviado ao navegador do usuário
 
-<?php ?>  = super tag PHP
+    <?php ?>  = super tag PHP
 
-<? ?>     = Short open tag
+    <? ?>     = Short open tag
 
-<?= ?>    = Short tag PHP: 
-                OBS: Usar apenas em uma linha de comando e não precisa de ; no final
-                Ex:     <?= "<p>Meu nome é <strong>Caio Vilarouca</strong></p>"?>
+    <?= ?>    = Short tag PHP: 
+                OBS 
+                    Usar apenas em uma linha de comando e não precisa de ";" no final
+                EX
+                    <?= "<p> Meu nome é <strong> Caio Vilarouca </strong> </p>"?>
 
 Variáveis 
     No PHP, não precisa declarar o tipo da variável, mas costante precisa. Além disso, Const só tem um valor do começo ao final do programa.
