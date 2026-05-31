@@ -2,7 +2,7 @@ Criador do PHP
     Rasmus Lerdorf, criou em 1994
 
 PHP
-    HyperText Preprocessor PHP
+    PHP HyperText Preprocessor
     Nome do mascote do PHP é Elefante com PHP
 
 Como o PHP funciona
@@ -30,6 +30,9 @@ Variáveis
 
 Comentários em PHP
     # ou //
+
+PHP pré processamento
+    echo = retorno
 
 
 laravel
