@@ -28,7 +28,13 @@ Variáveis
         Const
             const PAIS = "Brasil";
 
+Comentários em PHP
+    # ou //
+
 
 laravel
     composer create-project --prefer-dist laravel/laravel Nome-do-projeto
+
+
+
 
