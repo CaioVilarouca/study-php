@@ -23,10 +23,23 @@ PHP
 
 Variáveis 
     No PHP, não precisa declarar o tipo da variável, mas costante precisa. Além disso, Const só tem um valor do começo ao final do programa.
+    PHP só precisa inicializar a variável, mas não precisa declarar 
         VAR 
             $name = "Caio";
+            Var pode variar o valor durante a execução do programa
         Const
             const PAIS = "Brasil";
+            const é um valor que até o final do programa ele é um só 
+
+        Exemplo
+            Interpolação
+            echo "Seu nome $name!"
+
+            Concatenação
+            echo "Seu nome " .$name;
+
+            Formatado
+            printf ("Seu nome é %s", $name);
 
 Comentários em PHP
     # ou //
