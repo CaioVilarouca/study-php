@@ -41,6 +41,10 @@ Variáveis
             Formatado
             printf ("Seu nome é %s", $name);
 
+        Comando
+               var_dump(varAquiDentro);
+                    Ele mostra o timpo da VAR
+
 Comentários em PHP
     # ou //
 
