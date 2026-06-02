@@ -9,7 +9,7 @@
     <h1>Conversor de Moedas</h1>
     <form action="index.php" method="get">
         <label>Quantos R$ você tem na carteira?</label><br>
-        <input type="text" name="money"><br>
+        <input type="number" name="money" step="0.01"><br>
         <input type="submit" value="Converter">
     </form>
     <?php
@@ -18,7 +18,7 @@
         // Biblioteca intl (Internallization PHP)
         $standard = numfmt_create("pt_BR", NumberFormatter::CURRENCY);
         if ($money != 0) {
-            printf("Seus %s equivalem a <strong>%s</strong>",
+            printf("Seus <strong>%s</strong> equivalem a <strong>%s</strong>",
             numfmt_format_currency($standard, $money, "BRL"),
             numfmt_format_currency($standard, $money/5.02, "USD"));
         }
