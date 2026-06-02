@@ -14,9 +14,13 @@
     </form>
     <?php
         $money = $_GET["money"] ?? 0;
-
-        if (!$money == 0) {
-            printf("Seus R$%.2f equivalem a <strong>R$%.2f<strong>",$money,$money/5.02);
+        // Formatação de moedas com internacionalização
+        // Biblioteca intl (Internallization PHP)
+        $standard = numfmt_create("pt_BR", NumberFormatter::CURRENCY);
+        if ($money != 0) {
+            printf("Seus %s equivalem a <strong>%s</strong>",
+            numfmt_format_currency($standard, $money, "BRL"),
+            numfmt_format_currency($standard, $money/5.02, "USD"));
         }
     ?>
 </body>
